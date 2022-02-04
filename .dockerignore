@@ -1,4 +1,5 @@
 README.md
 Dockerfile
 node_modules
+package-lock.json
 sonar-project.properties
