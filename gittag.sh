@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo usermod -a -G docker $USER
 chmod +x /var/run/docker.sock
 #get highest tag number
 VERSION=`git describe --tags $(git rev-list --tags --max-count=1)`
